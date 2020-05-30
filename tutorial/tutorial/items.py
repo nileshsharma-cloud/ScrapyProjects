@@ -15,7 +15,7 @@ class TutorialItem(scrapy.Item):
     all_tags = scrapy.Field()
 
 
-class Amazon(scrapy.item):
-    title = scrapy.Field()
-    price = scrapy.Field()
-    author = scrapy.Field()
+class Amazon(scrapy.Item):
+    book_title = scrapy.Field()
+    book_price = scrapy.Field()
+    book_author = scrapy.Field()
